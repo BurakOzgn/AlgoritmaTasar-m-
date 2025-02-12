@@ -28,3 +28,110 @@ Adım 3) Oku yaricap
 Adım 4) alan = pi * yaricap**2
 Adım 5) Yaz alan
 Adım 6) BİTİR
+
+4) Yaşı girilen kişinin 18 yaşından büyük olup 
+olmadığına göre ehliyet alabilme durumunu
+kontrol eden algoritma
+Adım 1) BAŞLA
+Adım 2) Sayısal yas
+Adım 3) Yaz "Yaşınızı giriniz"
+Adım 4) Oku yas
+Adım 5) Eğer yas > 18 ise
+Adım 6) Yaz "ehliyet alabilir"
+Adım 7) Değilse
+Adım 8) Yaz "Ehliyet alamaz"
+Adım 9) Eğer bitti
+Adım 10) BİTİR
+
+5) Vize ve final notu girilen öğrencinin ortalaması
+50 ve üzeri ise geçti, değilse kaldı yazan algoritma
+Adım 1) BAŞLA
+Adım 2) Sayısal vize, final, ort
+Adım 3) Yaz "Vize notunu giriniz"
+Adım 4) Oku vize
+Adım 5) Yaz "Final notunu giriniz"
+Adım 6) Oku final
+Adım 7) ort = (vize+final)/2
+Adım 8) Eğer ort >=50 ise
+Adım 9) Yaz "Geçti"
+Adım 10) Değilse 
+Adım 11) Yaz "Kaldı"
+Adım 12) DUR
+
+6) Vize ve final notu girilen öğrencinin vizenin
+%40'ı, finalin %60'ı hesaplanıp ortalamanın ve 
+finalin notu 60 üzeri ise geçti yazan algoritma 
+Adım 1) BAŞLA
+Adım 2) Sayısal vize, final, ort
+Adım 3) Yaz "Vize notunu giriniz"
+Adım 4) Oku vize
+Adım 5) Yaz "Final notunu giriniz"
+Adım 6) Oku final
+Adım 7) ort = (vize*0.4) + (final*0.6)
+Adım 8) Eğer final>=60 && ort>=60 ise
+Adım 9) Yaz "Geçti"
+Adım 10) Değilse
+Adım 11) Yaz "Kaldı"
+Adım 12) Eğer Bitti
+Adım 13) BİTİR
+
+7) Klavyeden girilen sayı 0'dan büyük ise pozitif
+küçük ise negatif ve sıfıra eşit ise sıfır yazan
+algoritma
+Adım 1) BAŞLA
+Adım 2) Sayısal sayi
+Adım 3) Yaz "Bir sayı giriniz"
+Adım 4) Oku sayi
+Adım 5) Eğer sayi > 0 ise
+Adım 6) Yaz "Pozitif"
+Adım 7) Değilse eğer sayi < 0
+Adım 8) Yaz "Negatif"
+Adım 9) Değilse
+Adım 10) Yaz "Nötr"
+Adım 11) Eğer bitti
+Adım 12) BİTİR
+
+8) Klavyeden girilen sayının tek çift olma durumunu
+sorgulayan algoritma 
+Adım 1) BAŞLA
+Adım 2) Sayısal sayi
+Adım 3) Yaz "bir sayı giriniz"
+Adım 4) Oku sayi
+Adım 5) Eğer sayi%2==0 ise
+Adım 6) Yaz "Sayı çifttir"
+Adım 7) Değilse
+Adım 8) Yaz "Sayu tektir"
+Adım 9) Eğer BİTTİ
+Adım 10) BİTİR
+
+9) 1 - 100 arası sayıları yazdıran algoritma 
+Adım 1) BAŞLA
+Adım 2) Sayısal sayac
+Adım 3) Döngü sayac = 1; sayac <= 100; sayac++
+Adım 4) Yaz sayac
+Adım 5) Döngü bitti 
+Adım 6) DUR
+
+10) 1 ile 100 arasındaki sayıları toplayıp
+ekrana yazdıran program
+Adım 1) BAŞLA
+Adım 2) Sayısal sayac, toplam = 0
+Adım 3) Döngü sayac = 1; sayac <= 100; sayac++
+Adım 4) toplam = toplam + sayac
+Adım 5) Döngü bitti
+Adım 6) Yaz toplam
+Adım 7) BİTİR 
+
+11) Kullanıcının girdiği 10 sayıdan çift olanları toplayıp
+ekrana yazdıran program
+Adım 1) BAŞLA
+Adım 2) Sayısal sayi, sayac, toplam = 0
+Adım 3) Döngü sayac = 1; sayac <= 100; sayac++
+Adım 4) Yaz "Bir sayı giriniz"
+Adım 5) Oku sayi
+Adım 6) Eğer sayi%2==0 ise
+Adım 7) toplam = toplam + sayi
+Adım 8) Eğer bitti
+Adım 9) Döngü bitti
+Adım 10) Yaz toplam
+Adım 11) BİTİR 
