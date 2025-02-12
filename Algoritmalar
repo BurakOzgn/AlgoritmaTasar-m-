@@ -1,0 +1,30 @@
+1) Klavyeden girilen iki sayıyı toplayıp yazdıran
+algoritmayı tasarlayınız.
+Adım 1) BAŞLA
+Adım 2) Sayısal s1, s2, toplam
+Adım 3) Oku s1
+Adım 4) Oku s2
+Adım 5) Toplam = s1 + s2
+Adım 6) Yaz Toplam
+Adım 7) BİTİR
+
+2) Kısa ve uzun kenarı girilen dikdörtgenin alanını
+ve çevresini hesaplayan algoritmayı tasarlayınız
+Adım 1) BAŞLA
+Adım 2) Sayısal uk, ks, alan, cevre
+Adım 3) Oku uk
+Adım 4) Oku ks
+Adım 5) alan = uk * ks
+Adım 6) Yaz alan
+Adım 7) cevre = 2*(uk + ks)
+Adım 8) Yaz cevre
+Adım 9) BİTİR
+
+3) Yarıçapı verilen çemberin alanını hesaplayan
+algoritmayı tasarlayınız
+Adım 1) BAŞLA
+Adım 2) Sayısal alan, yaricap, pi = 3.14
+Adım 3) Oku yaricap
+Adım 4) alan = pi * yaricap**2
+Adım 5) Yaz alan
+Adım 6) BİTİR
